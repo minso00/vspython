@@ -8,6 +8,13 @@ print('hello')
 # 외부 라이브러리 사용(통계 = numpy)
 # 시각화(matplotlib)
 
-a = 10
+a = 10.5 #가변형
 b = 20
+c = '파이썬'
 print(a + b)
+print(type(c))
+
+num1 = int(input('input num1 : '))
+num2 = int(input('input num2 : '))
+# f-string(python 3.x)
+print(f"{num1} + {num2} = {num1 + num2}")
