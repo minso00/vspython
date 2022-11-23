@@ -1,0 +1,3 @@
+vscode git 연동에 대해 학습
+#local(내 컴퓨터) : oss-git init
+#remote(학습)
