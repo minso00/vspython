@@ -1,0 +1,239 @@
+    1  ls
+    2  cd /
+    3  ls
+    4  ls /bin
+    5  man ls
+    6  cd bin
+    7  cd /sbin
+    8  ls
+    9  cd /
+   10  ls
+   11  cd etc
+   12  ls
+   13  ls *.conf
+   14  cd /dev
+   15  ls
+   16  cd
+   17  ls
+   18  pwd
+   19  cd /home
+   20  ls
+   21  mj
+   22  cd mj
+   23  ls
+   24  cd /mnt /c
+   25  ls
+   26  cd ../d
+   27  cd /mnt /d
+   28  ls
+   29  c ../d
+   30  ls
+   31  d ..
+   32  cd /home
+   33  ls
+   34  ls -al
+   35  cd mj
+   36  ls
+   37  mkdir user01  user 02
+   38  ls
+   39  mkdir user01/docs
+   40  ls
+   41  ls user01/docs
+   42  ls
+   43  user01/bin
+   44  ls
+   45  mkdir user01/bin
+   46  ls
+   47  mkdir user01/download
+   48  ls
+   49  rmdir 02 user
+   50  ls
+   51  mkdir user02
+   52  ls
+   53  cd user01
+   54  mkdir docs bin download
+   55  ls
+   56  exit
+   57  cd /home
+   58  ls
+   59  touch.txt
+   60  touch test.txt
+   61  insert i
+   62  ls
+   63  cd
+   64  ls
+   65  cd /home
+   66  cp test.txt mj/t.txt
+   67  ls
+   68  ls mj
+   69  cat mj
+   70  ls
+   71  mkdir dit
+   72  ls
+   73  clear
+   74  ls
+   75  mv test.txt dit/
+   76  cd dit
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd mj
+   81  ls
+   82  mv t.txt mj.txt
+   83  ls
+   84  cp mj.txt mj01.txt
+   85  ls
+   86  man rm
+   87  rm -i mj01.txt
+   88  clear
+   89  ls
+   90  rm -i dc ..
+   91  rm -i cd ..
+   92  alias la='ls -al'
+   93  la
+   94  history
+   95  cd mnt/c/
+   96  ls
+   97  cd ..
+   98  cd mnt/d/
+   99  cd mnt/d
+  100  cd
+  101  cd mnt/d
+  102  cd mnt/c
+  103  cd /mnt/c
+  104  history > 오픈소스/202245588.txt
+  105  ls
+  106  cd 오픈소스
+  107  ls
+  108  clear
+  109  cd
+  110  passwd mj
+  111  exit
+  112  su mj
+  113  exit
+  114  su mj
+  115  sudo apt-get install git
+  116  exit
+  117  which echo
+  118  echo $USER
+  119  echo $0
+  120  echo $HOSTNAME
+  121  echo $UID
+  122  echo #SHELL
+  123  echo $SHELL
+  124  echo $HOME
+  125  city = 'busan'
+  126  echo city
+  127  echo $city
+  128  city = "busan"
+  129  echo "my city"
+  130  echo 'My $city'
+  131  echo $city
+  132  $city = 'busan
+  133  $city = 'busan'
+  134  city
+  135  echo 'My $city'
+  136  var1 = 12
+  137  var2 = 'dit'
+  138  echo $var1 $var2
+  139  '
+  140  var1 = 12
+  141  var2 = 'dit'
+  142  echo $var1 $var2
+  143  echo var1 = 12
+  144  echo var2 = 'dit'
+  145  echo $var1
+  146  var1 = 12
+  147  var1=100
+  148  var2='dit'
+  149  echo $var1 $var2
+  150  set | more
+  151  unset var1
+  152  echo $var1 $var2
+  153  echo $var2
+  154  vi rootls.sh
+  155  cat rootls.sh
+  156  history > /mnt/c/oss/202245588김민지.txt
+  157  history > /mnt/c/오픈소스/202245588_0921김민지.txt
+  158  mkdir project01
+  159  ls
+  160  sudo mkdir /home/project01
+  161  ls
+  162  mkdir minso
+  163  ls
+  164  ls -al
+  165  ls
+  166  mkdir minji
+  167  ls
+  168  sudo apt-get install git
+  169  git config --global user.name "minjiKim"
+  170  git config --global user.email "promingi7651@naver.com"
+  171  git config --list
+  172  useradd minso
+  173  passwd minso 
+  174  su minso
+  175  sudo useradd -M min01
+  176  sudo passwd min01
+  177  sudo su min01
+  178  ls
+  179  cd /home
+  180  ls
+  181  cd project01
+  182  git init
+  183  ls
+  184  ls -al
+  185  vi hello.html
+  186  history
+  187  ls
+  188  rm *.*
+  189  ls
+  190  rm -r bak
+  191  ls
+  192  cd /mnt/c/oss# cd ~
+  193  ls
+  194  pwd
+  195  vi test03.sh
+  196  ls
+  197  rm - r
+  198  rm -r
+  199  vi test03.sh
+  200  bash ./test03.sh
+  201  vi test03.sh
+  202  vi test04.sh
+  203  vi test02.sh
+  204  vi test03.sh
+  205  chmod 744 test03.sh
+  206  bash ./test03.sh
+  207  vi test04sh
+  208  vi test04.sh
+  209  chmod 744 test04.sh
+  210  ./test04.sh
+  211  vi test04.sh
+  212  ./test04.sh
+  213  vi test05.sh
+  214  chmod 744 test05.sh
+  215  ls -l
+  216  bash ./test05.sh
+  217  touch a.log
+  218  touch b.log
+  219  touch c.log
+  220  ls
+  221  vi t6.sh
+  222  cd bak
+  223  ls
+  224  vi t6.sh
+  225  bash ./t6.sh
+  226  ls
+  227  cd bak2
+  228  ls
+  229  cd ..
+  230  vi t7.sh
+  231  chmod 744 t7.sh
+  232  bash ./t7.sh
+  233  vi t7.sh
+  234  cat t7.sh
+  235  vi t07_2.sh
+  236  bash ./t07_2.sh
+  237  history /mnt/c/oss
+  238  history > /mnt/c/oss
+  239  history > /mnt/c/oss/20221107
