@@ -1,1 +1,7 @@
-안뇽
+# (회사) oss 폴더 - 깃 초기화 장소
+# (집)project - 복제된 장소
+1. 각각 위치에 파일을 하나 만들기
+2. 회사 add - commit - push
+3. 집 작업 add - commit - push
+### 에러 발생 push rejected 
+4. pull >> push
